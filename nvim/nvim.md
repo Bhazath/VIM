@@ -40,7 +40,7 @@ inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
 inoremap ` ``<Esc>i
 ```
-
+---
 ```
 " Enable line numbers
 set number
