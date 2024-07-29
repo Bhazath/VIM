@@ -81,4 +81,6 @@ inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
 inoremap ` ``<Esc>i
 
+" Set the theme (use a simple theme similar to VSCode's default)
+colorscheme desert
 ```
