@@ -33,7 +33,7 @@ if !has('gui_running')
 endif
 ```
 ---
-### with auto ex:"",{},() and coment 
+### with coment with colorscheme desert
 ```
 " Enable line numbers
 set number
@@ -73,6 +73,12 @@ if !has('gui_running')
     set t_Co=256
 endif
 
+" Set the theme (use a simple theme similar to VSCode's default)
+colorscheme desert
+```
+---
+## - Auto complite 
+```
 " Auto-completion for braces, brackets, quotes, etc.
 inoremap { {}<Esc>i
 inoremap ( ()<Esc>i
@@ -81,6 +87,4 @@ inoremap " ""<Esc>i
 inoremap ' ''<Esc>i
 inoremap ` ``<Esc>i
 
-" Set the theme (use a simple theme similar to VSCode's default)
-colorscheme desert
 ```
