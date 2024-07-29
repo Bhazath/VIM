@@ -31,16 +31,9 @@ set showmatch
 if !has('gui_running')
     set t_Co=256
 endif
-
-" Auto-completion for braces, brackets, quotes, etc.
-inoremap { {}<Esc>i
-inoremap ( ()<Esc>i
-inoremap [ []<Esc>i
-inoremap " ""<Esc>i
-inoremap ' ''<Esc>i
-inoremap ` ``<Esc>i
 ```
 ---
+### with auto ex:"",{},() and coment 
 ```
 " Enable line numbers
 set number
