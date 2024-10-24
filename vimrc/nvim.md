@@ -77,14 +77,3 @@ endif
 colorscheme desert
 ```
 ---
-## - Auto complite 
-```
-" Auto-completion for braces, brackets, quotes, etc.
-inoremap { {}<Esc>i
-inoremap ( ()<Esc>i
-inoremap [ []<Esc>i
-inoremap " ""<Esc>i
-inoremap ' ''<Esc>i
-inoremap ` ``<Esc>i
-
-```
